@@ -23,7 +23,7 @@ application값 : ${applicationScope.test} <br/> --%>
 <div class="container">
 	<input name="num" type="hidden" value="${board.num}" readOnly/><br />
 	<input name="title" type="text" value="${board.title}" class="form-control form-control" /><br />
-	<textarea id="summernote" name="content" /></textarea>
+	<textarea id="summernote" name="content" />${board.content}</textarea>
 	<input type="hidden" name="id" value="<%= session.getAttribute("id") %>" /><br />
 	<input type="submit" class="btn btn-primary" value="수정" />
 	<a href="board?cmd=boardListPage">돌아가기</a>

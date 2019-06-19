@@ -28,8 +28,8 @@
         <input class="form-check-input" type="checkbox" name="idSave" value="on"> Remember me
       </label>
     </div>
-    <button type="submit" class="btn btn-primary">로그인</button>
     <a href="board?cmd=boardListPage" class="btn btn-primary">돌아가기</a>
+    <button type="submit" class="btn btn-primary">로그인</button>
   </form>
 </div>
 <c:import url = "/base/footer.jsp"></c:import>
